@@ -1,0 +1,51 @@
+
+# Maven
+target/
+.mvn/timing.properties
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache/
+
+# VS Code
+.vscode/
+
+# Build directories
+build/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
